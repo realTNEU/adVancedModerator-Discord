@@ -1,0 +1,15 @@
+{
+    "embedColorSucces": "#00D26A",
+    "embedColorWarning": "#FFCC4D",
+    "embedColorError": "#FB2F61",
+
+    "embedErrorMessage": "An error has occured !",
+
+    "commandDevOnly": "This command can only be executed by developers.",
+    "commmandTestMode": "This is in developement and cannot be used in this server.",
+    "commandPremiumOnly": "This command can only be used by premium customers",
+
+    "userNoPermissions": "You do not have enough permissions to execute this command.",
+    "botNoPermissions": "I do not have enough permissions to execute this command."
+    
+}
