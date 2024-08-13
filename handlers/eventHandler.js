@@ -2,7 +2,7 @@ const path = require("path");
 const getAllFiles = require('../utils/getAllFiles');
 
 module.exports = (client) => {
-    const eventFolders  = getAllFiles(path.join(__dirname, ".." , "events", true))
+    const eventFolders  = getAllFiles(path.join(__dirname, ".." , "events"))
     for(const eventFolder of eventFolders){
         let eventName;
         eventName = eventFolder.replace(/\\/g, "/").split('/').pop();

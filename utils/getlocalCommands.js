@@ -13,5 +13,5 @@ module.exports = (exceptions = []) =>{
         }
     }
 
-
+return localCommands;
 }

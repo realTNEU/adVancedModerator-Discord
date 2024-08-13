@@ -35,7 +35,7 @@ module.exports = async (client) => {
               .blue
           );
         }
-      } else if (existingCommand) {
+      } else if (existingCommand, localCommand) {
         if (commandComparing(existingCommand, commandOptions)) {
           await applicationCommands.edit(existingCommand.id, {
             name: commandName,
